@@ -1,0 +1,165 @@
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--green);
+
+}
+
+.header .navbar .logo{
+    width: 8rem;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 5 15px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.header .navbar .navbar-toggler svg{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+.spot-btn-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+    color: #2941AB;
+    padding: 14px 32px;;
+    border-radius: 500px;
+    font-size: inherit;
+    
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+}
+
+.header .navbar-nav .nav-item{
+    padding: 0 .7rem;
+}
+
+.header .navbar-nav .nav-item .nav-link{
+    color: var(--white);
+
+    transition: all 0.1s ease-out;
+}
+
+.header .navbar-nav .nav-item .nav-link[data-color="gray"]{
+    color: var(--gray);
+}
+
+.header .navbar-nav .nav-item .nav-link:hover,
+.header .navbar-nav .nav-item .nav-link[data-color="gray"]:hover{
+    color: var(--green);
+}
+
+.header .navbar-nav .nav-item .divider{
+    display: block;
+    margin: 0 auto;
+
+    width: .1rem;
+    height: 1rem;
+
+    background: var(--white);
+}
+
+/* Seção topo */
+.secao-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-size: 153%;
+    background-position: right 40% center;
+
+    padding-top: 7rem;
+
+    background: 
+        url("https://www-growth.scdn.co/static/home/bursts-tablet.svg")
+        center -138px / 100% 1068px no-repeat, 
+        linear-gradient(-45deg, rgb(41, 65, 171) -5%, rgb(41, 65, 171));
+}
+
+.secao-topo h1{
+    font-size: 4rem;
+    color: var(--green);
+}
+
+.secao-topo img{
+    width: 18rem;
+}
+
+
+
+
+/* Footer */
+.footer{
+    padding: 6rem 0;
+
+    height: 80vh;
+    margin: 0;
+}
+
+.footer #area-redes-sociais{
+    display: flex;
+    gap: 1rem;
+
+    justify-content: end;
+}
+
+.footer .links a{
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.footer .copiright{
+    padding-top: 4rem;
+}
+
+.footer .links a,
+.footer .copiright a{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+.spot-color-gray-dark {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+.footer .copiright a,
+.footer .copiright small{
+    padding: 0 .6rem;
+    font-size: .8rem;
+    color: var(--gray-dark);
+}
+
+.footer a:hover,
+.footer .copiright a:hover{
+    color: #1ed760;
+}
+
+.footer .copiright div:last-child{
+    text-align: left;
+}
+.spot-color-gray-dark {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
